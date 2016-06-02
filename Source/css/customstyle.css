@@ -1,0 +1,62 @@
+.social {
+  text-align: right;
+  vertical-align: center;
+  height: 50px;
+}
+.social a {
+  margin: 11px 10px 0 0;
+  color: #fff;
+  display: inline-block;
+  width: 26px;
+  border-radius: 13px;
+  line-height: 26px;
+  font-size: 15px;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  vertical-align: center;
+}
+.social a i {
+  vertical-align: center;
+  line-height: 26px;
+}
+.social .facebook {
+  background-color: #3b5998;
+}
+.social .github {
+  background-color: #333333;
+}
+.social .stackoverflow {
+  background-color: #fe7a15;
+}
+.social .bitbucket {
+  background-color: #205081;
+}
+.social .linkedin {
+  background-color: #0077b5;
+}
+.footer {
+  position: relative;
+  bottom: 20px;
+  right: 0px;
+  width: 100%;
+  z-index: 4;
+  margin-top: 50px;
+  color: #000;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+@media (max-width: 991px) {
+  .footer {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .footer {
+    position: fixed;
+    bottom: 20px;
+  }
+}
+.navbar-brand {
+  font-family: 'Bigshot One';
+}
